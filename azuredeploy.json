@@ -370,7 +370,7 @@
     "setupLBsUrl": "[concat(parameters('baseUrl'),'/loadBalancers.json')]",
     "creatingNICSUrl": "[concat(parameters('baseUrl'),'/creatingNICS.json')]",
     "ProvisioningADDomainControllerUrl": "[concat(parameters('baseUrl'),'/provisioningDomainController.json')]",
-    "ProvisioningSQLUrl": "[concat('https://intprovisioning.blob.core.windows.net/scripts/','/provisioningSQL.json')]"
+    "ProvisioningSQLUrl": "[concat('https://raw.githubusercontent.com/IntePort/SPbiFarm/master/ProvisioningSQL.json','/provisioningSQL.json')]"
   },
   "resources": [
     {
